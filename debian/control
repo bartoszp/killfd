@@ -1,0 +1,12 @@
+Source: killfd
+Section: unknown
+Priority: extra
+Maintainer: crg <bartosz.pierzchala@gmail.com>
+#Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: https://github.com/bartoszp/killfd/
+
+Package: killfd
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: kill an open file/pipe/socket within in a process

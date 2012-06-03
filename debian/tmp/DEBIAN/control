@@ -1,0 +1,10 @@
+Package: killfd
+Version: 0.1-1
+Architecture: i386
+Maintainer: crg <bartosz.pierzchala@gmail.com>
+Installed-Size: 40
+Depends: libc6 (>= 2.7)
+Section: unknown
+Priority: extra
+Homepage: https://github.com/bartoszp/killfd/
+Description: kill an open file/pipe/socket within in a process
